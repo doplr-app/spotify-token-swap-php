@@ -2,7 +2,7 @@
 
 namespace emphaz;
 
-class SpotifyTokenSwap
+class SpotifyTokenSwapper
 {
     private $spotifyClientID;
     private $spotifySecret;
