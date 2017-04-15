@@ -2,6 +2,8 @@
 
 namespace emphaz\SpotifyTokenSwapper;
 
+use InvalidArgumentException;
+
 class SpotifyTokenSwapper
 {
     private $spotifyClientID;
