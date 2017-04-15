@@ -4,6 +4,9 @@
 Simply require it with composer
 `composer require emphaz/spotify-token-swap-php`
 
+## Requirements
+Only `curl` is required for the module to work.
+
 ## Usage
 ```php
 <?php
