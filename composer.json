@@ -14,5 +14,10 @@
             "email": "timothe.pearce@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "emphaz\\SpotifyTokenSwapper\\": "src/"
+        }
+    }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace emphaz;
+namespace emphaz\SpotifyTokenSwapper;
 
 class SpotifyTokenSwapper
 {
