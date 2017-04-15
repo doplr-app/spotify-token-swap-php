@@ -2,6 +2,7 @@
     "name": "emphaz/spotify-token-swap-php",
     "description": "Allows to swap tokens with the Spotify API",
     "type": "library",
+    "minimum-stability": "stable",
     "license": "MIT",
     "authors": [
         {
