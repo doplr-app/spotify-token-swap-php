@@ -11,7 +11,7 @@ Only `curl` is required for the module to work.
 ```php
 <?php
 
-use emphaz\SpotifyTokenSwapper;
+use emphaz\SpotifyTokenSwapper\SpotifyTokenSwapper;
 
 $tokenSwapper = new SpotifyTokenSwapper([
     'client_id' => '5865db6d15f808d916b77bed10993c2e',
