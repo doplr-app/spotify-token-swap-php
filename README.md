@@ -2,7 +2,7 @@
 
 ## Installation
 Simply require it with composer
-`composer install emphaz/spotify-token-swap-php`
+`composer require emphaz/spotify-token-swap-php`
 
 ## Usage
 ```php
