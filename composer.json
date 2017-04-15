@@ -1,0 +1,13 @@
+{
+    "name": "emphaz/spotify-token-swap-php",
+    "description": "Allows to swap tokens with the Spotify API",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Renan GEHAN",
+            "email": "rgehan94@gmail.com"
+        }
+    ],
+    "require": {}
+}
