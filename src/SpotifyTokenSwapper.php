@@ -28,14 +28,14 @@ class SpotifyTokenSwapper
     /**
      * Swap an auth code for an access token & a refresh token
      * @param  {String} $authCode The auth code as provided by the Spotify API
-     * 
-     * @return {Array} An array containing the 'access_token', 'token_type', 
+     *
+     * @return {Array} An array containing the 'access_token', 'token_type',
      *                 'expires_in', 'refresh_token' and 'scope' fields
      */
     public function swapAuthCode($authCode)
     {
         $ch = curl_init("https://accounts.spotify.com/api/token");
-        
+
         // Uses POST verb
         curl_setopt($ch, CURLOPT_POST, 1);
 
@@ -55,6 +55,6 @@ class SpotifyTokenSwapper
         $response = curl_exec($ch);
         curl_close($ch);
 
-        return json_decode($response);
+        return json_decode($response, true);
     }
 }
